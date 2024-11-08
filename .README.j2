@@ -25,13 +25,13 @@ Add the repository URL under **Supervisor → Add-on Store** in your Home Assist
 ## Add-ons provided by this repository
 
 {% for addon in addons %}
-- [{{ addon.name }}][addon-{{ addon.target }}]
+### &#129302; [{{ addon.name }}][addon-{{ addon.target }}]
 
 ![Latest Version][{{ addon.target }}-version-shield]
-![Supports armhf Architecture][{{ addon.target }}-armhf-shield]
-![Supports armv7 Architecture][{{ addon.target }}-armv7-shield]
-![Supports aarch64 Architecture][{{ addon.target }}-aarch64-shield]
 ![Supports amd64 Architecture][{{ addon.target }}-amd64-shield]
+![Supports aarch64 Architecture][{{ addon.target }}-aarch64-shield]
+![Supports armv7 Architecture][{{ addon.target }}-armv7-shield]
+![Supports armhf Architecture][{{ addon.target }}-armhf-shield]
 ![Supports i386 Architecture][{{ addon.target }}-i386-shield]
 
 {{ addon.description }}
