@@ -1,0 +1,16 @@
+configuration:
+  log:
+    name: Log Level
+    description: debug, info, warning or error (default - info)
+
+  mqtt:
+    name: MQTT Broker
+    description: MQTT Broker connection settings
+
+  targets_path:
+    name: Config file with SNMP Targets
+    description: Full path for config file with SNMP Targets
+
+  homeassistant:
+    name: Home Assistant
+    description: Discovery settings for Home Assistant

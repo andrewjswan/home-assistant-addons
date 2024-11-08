@@ -1,0 +1,55 @@
+name: SNMP2MQTT
+version: 2024.11.1
+slug: snmp2mqtt
+description: SNMP2MQTT expose SNMP sensors to MQTT
+url: https://github.com/andrewjswan/snmp2mqtt-addon/
+codenotary: notary@home-assistant.io
+arch:
+- amd64
+- aarch64
+- armv7
+image: ghcr.io/andrewjswan/snmp2mqtt-addon-{arch}
+startup: application
+boot: auto
+init: false
+map:
+- addons:rw
+- all_addon_configs:rw
+- config:rw
+- share:rw
+- ssl:rw
+services:
+- mqtt:need
+homeassistant: 2024.1.0
+panel_icon: mdi:cog-transfer-outline
+panel_title: SMTP2MQTT
+options:
+  mqtt:
+    host: localhost
+    port: 1883
+  targets_path: /config/addons_config/snmp2mqtt/targets.yaml
+  homeassistant:
+    discovery: false
+    prefix: homeassistant
+schema:
+  mqtt:
+    host: str?
+    port: port?
+    username: str?
+    password: str?
+    client_id: str?
+    keepalive: int?
+    clean: bool?
+    retain: bool?
+    qos: int?
+    base_topic: str?
+    host_name_as_target: bool?
+    ca: str?
+    cert: str?
+    key: str?
+    reject_unauthorized: bool?
+  targets_path: str
+  homeassistant:
+    discovery: bool?
+    prefix: str?
+  log: list(debug|info|warning|error)?

@@ -24,6 +24,19 @@ Add the repository URL under **Supervisor → Add-on Store** in your Home Assist
 
 ## Add-ons provided by this repository
 
+- [SNMP2MQTT][addon-snmp2mqtt]
+
+![Latest Version][snmp2mqtt-version-shield]
+![Supports armhf Architecture][snmp2mqtt-armhf-shield]
+![Supports armv7 Architecture][snmp2mqtt-armv7-shield]
+![Supports aarch64 Architecture][snmp2mqtt-aarch64-shield]
+![Supports amd64 Architecture][snmp2mqtt-amd64-shield]
+![Supports i386 Architecture][snmp2mqtt-i386-shield]
+
+SNMP2MQTT expose SNMP sensors to MQTT
+
+[SNMP2MQTT add-on documentation][addon-doc-snmp2mqtt]
+
 
 ## Support
 
@@ -31,9 +44,19 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: SNMP2MQTT][snmp2mqtt-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
+[addon-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon/tree/v2024.11.1
+[addon-doc-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon/blob/v2024.11.1/README.md
+[snmp2mqtt-issue]: https://github.com/andrewjswan/snmp2mqtt-addon/issues
+[snmp2mqtt-version-shield]: https://img.shields.io/badge/version-v2024.11.1-blue.svg
+[snmp2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[snmp2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[snmp2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[snmp2mqtt-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[snmp2mqtt-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/andrewjswan/home-assistant-addons/issues
 [repo]: https://github.com/andrewjswan/home-assistant-addons/
 [license-shield]: https://img.shields.io/github/license/andrewjswan/home-assistant-addons.svg
