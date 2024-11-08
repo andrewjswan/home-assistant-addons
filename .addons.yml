@@ -1,7 +1,7 @@
 ---
 channel: stable
 addons:
-  adguard:
+  snmp2mqtt:
     repository: andrewjswan/snmp2mqtt-addon
     target: snmp2mqtt
     image: ghcr.io/andrewjswan/snmp2mqtt-addon-{arch}
