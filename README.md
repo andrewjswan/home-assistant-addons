@@ -27,10 +27,10 @@ Add the repository URL under **Supervisor → Add-on Store** in your Home Assist
 ### &#129302; [SNMP2MQTT][addon-snmp2mqtt]
 
 ![Latest Version][snmp2mqtt-version-shield]
-![Supports armhf Architecture][snmp2mqtt-armhf-shield]
-![Supports armv7 Architecture][snmp2mqtt-armv7-shield]
-![Supports aarch64 Architecture][snmp2mqtt-aarch64-shield]
 ![Supports amd64 Architecture][snmp2mqtt-amd64-shield]
+![Supports aarch64 Architecture][snmp2mqtt-aarch64-shield]
+![Supports armv7 Architecture][snmp2mqtt-armv7-shield]
+![Supports armhf Architecture][snmp2mqtt-armhf-shield]
 ![Supports i386 Architecture][snmp2mqtt-i386-shield]
 
 SNMP2MQTT expose SNMP sensors to MQTT
