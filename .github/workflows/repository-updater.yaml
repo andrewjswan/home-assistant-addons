@@ -17,5 +17,4 @@ jobs:
           repository: ${{ github.repository }}
           token: ${{ secrets.UPDATER_TOKEN }}
         env:
-          GIT_AUTHOR_NAME: ${GITHUB_ACTOR}
           EMAIL: ${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com
