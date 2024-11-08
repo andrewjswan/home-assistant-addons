@@ -24,6 +24,19 @@ Add the repository URL under **Supervisor → Add-on Store** in your Home Assist
 
 ## Add-ons provided by this repository
 
+### &#129302; [ESPHome Update][addon-esphome-update]
+
+![Latest Version][esphome-update-version-shield]
+![Supports amd64 Architecture][esphome-update-amd64-shield]
+![Supports aarch64 Architecture][esphome-update-aarch64-shield]
+![Supports armv7 Architecture][esphome-update-armv7-shield]
+![Supports armhf Architecture][esphome-update-armhf-shield]
+![Supports i386 Architecture][esphome-update-i386-shield]
+
+ESPHome Update Server
+
+[ESPHome Update add-on documentation][addon-doc-esphome-update]
+
 ### &#129302; [RSSHub][addon-rsshub]
 
 ![Latest Version][rsshub-version-shield]
@@ -70,12 +83,22 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: ESPHome Update][esphome-update-issue]
 - [Open an issue for the add-on: RSSHub][rsshub-issue]
 - [Open an issue for the add-on: SNMP2MQTT][snmp2mqtt-issue]
 - [Open an issue for the add-on: phpMyAdmin][phpmyadmin-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
+[addon-esphome-update]: https://github.com/andrewjswan/esphome-update-addon/tree/v2024.11.3
+[addon-doc-esphome-update]: https://github.com/andrewjswan/esphome-update-addon/blob/v2024.11.3/README.md
+[esphome-update-issue]: https://github.com/andrewjswan/esphome-update-addon/issues
+[esphome-update-version-shield]: https://img.shields.io/badge/version-v2024.11.3-blue.svg
+[esphome-update-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[esphome-update-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[esphome-update-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[esphome-update-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[esphome-update-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-rsshub]: https://github.com/andrewjswan/rsshub-addon/tree/v2024.11.7
 [addon-doc-rsshub]: https://github.com/andrewjswan/rsshub-addon/blob/v2024.11.7/README.md
 [rsshub-issue]: https://github.com/andrewjswan/rsshub-addon/issues
