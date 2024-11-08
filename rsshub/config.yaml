@@ -1,0 +1,33 @@
+name: RSSHub
+version: 2024.11.7
+slug: rsshub
+description: Generate a RSS/Atom/JSON feed from anything
+url: https://github.com/andrewjswan/rsshub-addon/
+codenotary: notary@home-assistant.io
+arch:
+- amd64
+- aarch64
+- armv7
+image: ghcr.io/andrewjswan/rsshub-addon-{arch}
+startup: services
+boot: auto
+init: false
+ingress: true
+map:
+- config:rw
+- share:rw
+- ssl:rw
+homeassistant: 2024.1.0
+panel_icon: mdi:newspaper-variant-multiple
+panel_title: RSSHub
+ports:
+  1200/tcp: 5000
+ports_description:
+  1200/tcp: Web Interface
+watchdog: tcp://[HOST]:[PORT:1200]
+schema:
+  request_retry: int?
+  request_timeout: int?
+  cache_expire: int?
+  cache_content_expire: int?
+  logger_level: list(emerg|alert|crit|error|warning|notice|info|debug)?

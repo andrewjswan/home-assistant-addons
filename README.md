@@ -24,6 +24,19 @@ Add the repository URL under **Supervisor → Add-on Store** in your Home Assist
 
 ## Add-ons provided by this repository
 
+### &#129302; [RSSHub][addon-rsshub]
+
+![Latest Version][rsshub-version-shield]
+![Supports amd64 Architecture][rsshub-amd64-shield]
+![Supports aarch64 Architecture][rsshub-aarch64-shield]
+![Supports armv7 Architecture][rsshub-armv7-shield]
+![Supports armhf Architecture][rsshub-armhf-shield]
+![Supports i386 Architecture][rsshub-i386-shield]
+
+Generate a RSS/Atom/JSON feed from anything
+
+[RSSHub add-on documentation][addon-doc-rsshub]
+
 ### &#129302; [SNMP2MQTT][addon-snmp2mqtt]
 
 ![Latest Version][snmp2mqtt-version-shield]
@@ -44,10 +57,20 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: RSSHub][rsshub-issue]
 - [Open an issue for the add-on: SNMP2MQTT][snmp2mqtt-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
+[addon-rsshub]: https://github.com/andrewjswan/rsshub-addon/tree/v2024.11.7
+[addon-doc-rsshub]: https://github.com/andrewjswan/rsshub-addon/blob/v2024.11.7/README.md
+[rsshub-issue]: https://github.com/andrewjswan/rsshub-addon/issues
+[rsshub-version-shield]: https://img.shields.io/badge/version-v2024.11.7-blue.svg
+[rsshub-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[rsshub-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[rsshub-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[rsshub-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[rsshub-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon/tree/v2024.11.3
 [addon-doc-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon/blob/v2024.11.3/README.md
 [snmp2mqtt-issue]: https://github.com/andrewjswan/snmp2mqtt-addon/issues
