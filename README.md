@@ -48,10 +48,10 @@ on the correct GitHub repository matching the add-on.
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
-[addon-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon/tree/v2024.11.1
-[addon-doc-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon/blob/v2024.11.1/README.md
+[addon-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon/tree/v2024.11.3
+[addon-doc-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon/blob/v2024.11.3/README.md
 [snmp2mqtt-issue]: https://github.com/andrewjswan/snmp2mqtt-addon/issues
-[snmp2mqtt-version-shield]: https://img.shields.io/badge/version-v2024.11.1-blue.svg
+[snmp2mqtt-version-shield]: https://img.shields.io/badge/version-v2024.11.3-blue.svg
 [snmp2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [snmp2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [snmp2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
