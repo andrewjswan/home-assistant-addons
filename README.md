@@ -22,6 +22,19 @@ Add the repository URL under **Supervisor → Add-on Store** in your Home Assist
 
     https://github.com/andrewjswan/home-assistant-addons
 
+## Add-ons provided by this repository
+
+
+## Support
+
+You could also open an issue here on GitHub. Note, we use a separate
+GitHub repository for each add-on. Please ensure you are creating the issue
+on the correct GitHub repository matching the add-on.
+
+
+For a general repository issue or add-on ideas [open an issue here][issue]
+
+[issue]: https://github.com/andrewjswan/home-assistant-addons/issues
 [repo]: https://github.com/andrewjswan/home-assistant-addons/
 [license-shield]: https://img.shields.io/github/license/andrewjswan/home-assistant-addons.svg
 [maintenance-shield]: https://img.shields.io/github/last-commit/andrewjswan/home-assistant-addons
