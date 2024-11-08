@@ -24,7 +24,7 @@ Add the repository URL under **Supervisor → Add-on Store** in your Home Assist
 
 ## Add-ons provided by this repository
 
-- [SNMP2MQTT][addon-snmp2mqtt]
+### &#129302; [SNMP2MQTT][addon-snmp2mqtt]
 
 ![Latest Version][snmp2mqtt-version-shield]
 ![Supports armhf Architecture][snmp2mqtt-armhf-shield]
