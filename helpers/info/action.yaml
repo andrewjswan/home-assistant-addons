@@ -112,7 +112,7 @@ runs:
         done
 
         if [[ -z "${build+x}" ]]; then
-          echo "::error ::Could not find add-on build file"
+          echo "::notice ::Could not find add-on build file"
         fi
         echo "build=${build}" >> "$GITHUB_OUTPUT"
 
@@ -135,15 +135,20 @@ runs:
         version=$(yq --no-colors eval '.version' "${{ steps.find.outputs.config }}")
         echo "version=${version}" >> "$GITHUB_OUTPUT"
 
-        codenotary_signer=$(
-          yq --no-colors eval '.codenotary.signer' "${{ steps.find.outputs.build }}"
-        )
-        echo "codenotary_signer=${codenotary_signer}" >> "$GITHUB_OUTPUT"
+        if [[ -z "${{ steps.find.outputs.build }}" ]]; then
+          echo "codenotary_signer=" >> "$GITHUB_OUTPUT"
+          echo "codenotary_base_image=" >> "$GITHUB_OUTPUT"
+        else
+          codenotary_signer=$(
+            yq --no-colors eval '.codenotary.signer' "${{ steps.find.outputs.build }}"
+          )
+          echo "codenotary_signer=${codenotary_signer}" >> "$GITHUB_OUTPUT"
 
-        codenotary_base_image=$(
-          yq --no-colors eval '.codenotary.base_image' "${{ steps.find.outputs.build }}"
-        )
-        echo "codenotary_base_image=${codenotary_base_image}" >> "$GITHUB_OUTPUT"
+          codenotary_base_image=$(
+            yq --no-colors eval '.codenotary.base_image' "${{ steps.find.outputs.build }}"
+          )
+          echo "codenotary_base_image=${codenotary_base_image}" >> "$GITHUB_OUTPUT"
+        fi
 
     - name: ℹ️ Extract add-on architecture information
       shell: bash
