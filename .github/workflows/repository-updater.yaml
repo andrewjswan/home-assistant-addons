@@ -5,6 +5,9 @@ on:
   repository_dispatch:
     types: ["update"]
 
+concurrency:
+  group: queue
+
 jobs:
   whatever:
     name: Running updater for ${{ github.event.client_payload.addon }}
