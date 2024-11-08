@@ -1,6 +1,18 @@
 ---
 channel: stable
 addons:
+  esphome-update:
+    repository: andrewjswan/esphome-update-addon
+    target: esphome-update
+    image: ghcr.io/andrewjswan/esphome-update-addon-{arch}
+  phpmyadmin:
+    repository: andrewjswan/phpmyadmin-addon
+    target: phpmyadmin
+    image: ghcr.io/andrewjswan/phpmyadmin-addon-{arch}
+  rsshub:
+    repository: andrewjswan/rsshub-addon
+    target: rsshub
+    image: ghcr.io/andrewjswan/rsshub-addon-{arch}
   snmp2mqtt:
     repository: andrewjswan/snmp2mqtt-addon
     target: snmp2mqtt
