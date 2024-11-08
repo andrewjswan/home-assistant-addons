@@ -17,4 +17,5 @@ jobs:
           repository: ${{ github.repository }}
           token: ${{ secrets.UPDATER_TOKEN }}
         env:
+          GIT_AUTHOR_NAME: addon-bot
           EMAIL: ${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com
