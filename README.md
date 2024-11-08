@@ -50,6 +50,19 @@ SNMP2MQTT expose SNMP sensors to MQTT
 
 [SNMP2MQTT add-on documentation][addon-doc-snmp2mqtt]
 
+### &#129302; [phpMyAdmin][addon-phpmyadmin]
+
+![Latest Version][phpmyadmin-version-shield]
+![Supports amd64 Architecture][phpmyadmin-amd64-shield]
+![Supports aarch64 Architecture][phpmyadmin-aarch64-shield]
+![Supports armv7 Architecture][phpmyadmin-armv7-shield]
+![Supports armhf Architecture][phpmyadmin-armhf-shield]
+![Supports i386 Architecture][phpmyadmin-i386-shield]
+
+A web interface for the MariaDB / MySQL
+
+[phpMyAdmin add-on documentation][addon-doc-phpmyadmin]
+
 
 ## Support
 
@@ -59,6 +72,7 @@ on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: RSSHub][rsshub-issue]
 - [Open an issue for the add-on: SNMP2MQTT][snmp2mqtt-issue]
+- [Open an issue for the add-on: phpMyAdmin][phpmyadmin-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -80,6 +94,15 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [snmp2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [snmp2mqtt-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [snmp2mqtt-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-phpmyadmin]: https://github.com/andrewjswan/phpmyadmin-addon/tree/v2024.11.7
+[addon-doc-phpmyadmin]: https://github.com/andrewjswan/phpmyadmin-addon/blob/v2024.11.7/README.md
+[phpmyadmin-issue]: https://github.com/andrewjswan/phpmyadmin-addon/issues
+[phpmyadmin-version-shield]: https://img.shields.io/badge/version-v2024.11.7-blue.svg
+[phpmyadmin-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[phpmyadmin-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[phpmyadmin-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[phpmyadmin-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[phpmyadmin-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [issue]: https://github.com/andrewjswan/home-assistant-addons/issues
 [repo]: https://github.com/andrewjswan/home-assistant-addons/
 [license-shield]: https://img.shields.io/github/license/andrewjswan/home-assistant-addons.svg

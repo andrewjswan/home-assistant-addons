@@ -1,0 +1,22 @@
+---
+configuration:
+  host:
+    name: Host
+    description: >-
+      IP Address or Hostname of the SQL server. If not specified, the local MariaDB add-on is used.
+  port:
+    name: Port
+    description: >-
+      SQL server port, default 3306.
+  username:
+    name: Username
+    description: >-
+      The Username for authorization in the SQL server.
+  password:
+    name: Password
+    description: >-
+      The Password for authorization in the SQL server.
+  log_level:
+    name: Log level
+    description: >-
+      Controls the level of log details the add-on provides.

@@ -1,0 +1,25 @@
+name: phpMyAdmin
+version: 2024.11.7
+slug: phpmyadmin
+description: A web interface for the MariaDB / MySQL
+url: https://github.com/andrewjswan/phpmyadmin-addon
+codenotary: notary@home-assistant.io
+arch:
+- aarch64
+- amd64
+- armv7
+image: ghcr.io/andrewjswan/phpmyadmin-addon-{arch}
+ingress: true
+ingress_stream: true
+hassio_api: true
+panel_icon: mdi:database
+init: false
+services:
+- mysql:want
+schema:
+  host: str?
+  port: port?
+  username: str?
+  password: password?
+  upload_limit: int?
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
