@@ -106,7 +106,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [rsshub-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [rsshub-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [rsshub-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[rsshub-armv7-shield]: https://img.shields.io/badge/armv7-yes-blue.svg
+[rsshub-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [rsshub-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon
 [addon-doc-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon
