@@ -97,7 +97,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [esphome-update-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [esphome-update-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [esphome-update-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[esphome-update-armv7-shield]: https://img.shields.io/badge/armv7-yes-blue.svg
+[esphome-update-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [esphome-update-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-rsshub]: https://github.com/andrewjswan/rsshub-addon
 [addon-doc-rsshub]: https://github.com/andrewjswan/rsshub-addon
