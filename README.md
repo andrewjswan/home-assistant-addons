@@ -93,7 +93,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [addon-esphome-update]: https://github.com/andrewjswan/esphome-update-addon
 [addon-doc-esphome-update]: https://github.com/andrewjswan/esphome-update-addon
 [esphome-update-issue]: https://github.com/andrewjswan/esphome-update-addon/issues
-[esphome-update-version-shield]: https://img.shields.io/badge/version-v2025.6.3-blue.svg
+[esphome-update-version-shield]: https://img.shields.io/badge/version-v2025.6.5-blue.svg
 [esphome-update-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [esphome-update-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [esphome-update-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
