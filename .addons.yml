@@ -18,6 +18,6 @@ addons:
     target: snmp2mqtt
     image: ghcr.io/andrewjswan/snmp2mqtt-addon-{arch}
   ollama-ipex:
-    repository: andrewjswan/ollama-ipex
+    repository: andrewjswan/ollama-ipex-addon
     target: ollama-ipex
     image: ghcr.io/andrewjswan/ollama-ipex-addon-{arch}
