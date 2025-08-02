@@ -37,6 +37,19 @@ ESPHome Update Server
 
 [ESPHome Update add-on documentation][addon-doc-esphome-update]
 
+### &#129302; [Ollama IPEX][addon-ollama-ipex]
+
+![Latest Version][ollama-ipex-version-shield]
+![Supports amd64 Architecture][ollama-ipex-amd64-shield]
+![Supports aarch64 Architecture][ollama-ipex-aarch64-shield]
+![Supports armv7 Architecture][ollama-ipex-armv7-shield]
+![Supports armhf Architecture][ollama-ipex-armhf-shield]
+![Supports i386 Architecture][ollama-ipex-i386-shield]
+
+Get up and running with large language models.
+
+[Ollama IPEX add-on documentation][addon-doc-ollama-ipex]
+
 ### &#129302; [RSSHub][addon-rsshub]
 
 ![Latest Version][rsshub-version-shield]
@@ -84,6 +97,7 @@ GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: ESPHome Update][esphome-update-issue]
+- [Open an issue for the add-on: Ollama IPEX][ollama-ipex-issue]
 - [Open an issue for the add-on: RSSHub][rsshub-issue]
 - [Open an issue for the add-on: SNMP2MQTT][snmp2mqtt-issue]
 - [Open an issue for the add-on: phpMyAdmin][phpmyadmin-issue]
@@ -99,6 +113,15 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [esphome-update-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [esphome-update-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [esphome-update-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-ollama-ipex]: https://github.com/andrewjswan/ollama-ipex-addon
+[addon-doc-ollama-ipex]: https://github.com/andrewjswan/ollama-ipex-addon
+[ollama-ipex-issue]: https://github.com/andrewjswan/ollama-ipex-addon/issues
+[ollama-ipex-version-shield]: https://img.shields.io/badge/version-v0.5.7-blue.svg
+[ollama-ipex-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
+[ollama-ipex-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
+[ollama-ipex-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[ollama-ipex-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[ollama-ipex-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-rsshub]: https://github.com/andrewjswan/rsshub-addon
 [addon-doc-rsshub]: https://github.com/andrewjswan/rsshub-addon
 [rsshub-issue]: https://github.com/andrewjswan/rsshub-addon/issues
