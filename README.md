@@ -116,7 +116,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [addon-ollama-ipex]: https://github.com/andrewjswan/ollama-ipex-addon
 [addon-doc-ollama-ipex]: https://github.com/andrewjswan/ollama-ipex-addon
 [ollama-ipex-issue]: https://github.com/andrewjswan/ollama-ipex-addon/issues
-[ollama-ipex-version-shield]: https://img.shields.io/badge/version-v0.5.7-blue.svg
+[ollama-ipex-version-shield]: https://img.shields.io/badge/version-v2025.8.1-blue.svg
 [ollama-ipex-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [ollama-ipex-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [ollama-ipex-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
