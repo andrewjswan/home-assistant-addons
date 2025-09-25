@@ -37,6 +37,19 @@ ESPHome Update Server
 
 [ESPHome Update add-on documentation][addon-doc-esphome-update]
 
+### &#129302; [FastSD CPU][addon-fastsd-cpu]
+
+![Latest Version][fastsd-cpu-version-shield]
+![Supports amd64 Architecture][fastsd-cpu-amd64-shield]
+![Supports aarch64 Architecture][fastsd-cpu-aarch64-shield]
+![Supports armv7 Architecture][fastsd-cpu-armv7-shield]
+![Supports armhf Architecture][fastsd-cpu-armhf-shield]
+![Supports i386 Architecture][fastsd-cpu-i386-shield]
+
+FastSD CPU
+
+[FastSD CPU add-on documentation][addon-doc-fastsd-cpu]
+
 ### &#129302; [Ollama IPEX][addon-ollama-ipex]
 
 ![Latest Version][ollama-ipex-version-shield]
@@ -97,6 +110,7 @@ GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: ESPHome Update][esphome-update-issue]
+- [Open an issue for the add-on: FastSD CPU][fastsd-cpu-issue]
 - [Open an issue for the add-on: Ollama IPEX][ollama-ipex-issue]
 - [Open an issue for the add-on: RSSHub][rsshub-issue]
 - [Open an issue for the add-on: SNMP2MQTT][snmp2mqtt-issue]
@@ -113,6 +127,15 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [esphome-update-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [esphome-update-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [esphome-update-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-fastsd-cpu]: https://github.com/andrewjswan/fastsd-cpu-addon
+[addon-doc-fastsd-cpu]: https://github.com/andrewjswan/fastsd-cpu-addon
+[fastsd-cpu-issue]: https://github.com/andrewjswan/fastsd-cpu-addon/issues
+[fastsd-cpu-version-shield]: https://img.shields.io/badge/version-v2025.9.5-blue.svg
+[fastsd-cpu-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
+[fastsd-cpu-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
+[fastsd-cpu-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[fastsd-cpu-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[fastsd-cpu-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-ollama-ipex]: https://github.com/andrewjswan/ollama-ipex-addon
 [addon-doc-ollama-ipex]: https://github.com/andrewjswan/ollama-ipex-addon
 [ollama-ipex-issue]: https://github.com/andrewjswan/ollama-ipex-addon/issues
