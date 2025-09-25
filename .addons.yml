@@ -21,3 +21,7 @@ addons:
     repository: andrewjswan/ollama-ipex-addon
     target: ollama-ipex
     image: ghcr.io/andrewjswan/ollama-ipex-addon-{arch}
+  fastsd-cpu:
+    repository: andrewjswan/fastsd-cpu-addon
+    target: fastsd-cpu
+    image: ghcr.io/andrewjswan/fastsd-cpu-addon-{arch}
