@@ -46,7 +46,7 @@ ESPHome Update Server
 ![Supports armhf Architecture][fastsd-cpu-armhf-shield]
 ![Supports i386 Architecture][fastsd-cpu-i386-shield]
 
-FastSD CPU
+FastSD CPU is a faster version of Stable Diffusion on CPU
 
 [FastSD CPU add-on documentation][addon-doc-fastsd-cpu]
 
