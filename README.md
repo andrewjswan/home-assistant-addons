@@ -157,7 +157,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [addon-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon
 [addon-doc-snmp2mqtt]: https://github.com/andrewjswan/snmp2mqtt-addon
 [snmp2mqtt-issue]: https://github.com/andrewjswan/snmp2mqtt-addon/issues
-[snmp2mqtt-version-shield]: https://img.shields.io/badge/version-v2025.10.3-blue.svg
+[snmp2mqtt-version-shield]: https://img.shields.io/badge/version-v2025.11.1-blue.svg
 [snmp2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [snmp2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [snmp2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
