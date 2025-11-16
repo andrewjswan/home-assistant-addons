@@ -166,7 +166,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [addon-phpmyadmin]: https://github.com/andrewjswan/phpmyadmin-addon
 [addon-doc-phpmyadmin]: https://github.com/andrewjswan/phpmyadmin-addon
 [phpmyadmin-issue]: https://github.com/andrewjswan/phpmyadmin-addon/issues
-[phpmyadmin-version-shield]: https://img.shields.io/badge/version-v2025.6.1-blue.svg
+[phpmyadmin-version-shield]: https://img.shields.io/badge/version-v2025.11.1-blue.svg
 [phpmyadmin-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [phpmyadmin-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [phpmyadmin-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
