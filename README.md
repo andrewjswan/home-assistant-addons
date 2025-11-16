@@ -161,7 +161,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [snmp2mqtt-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [snmp2mqtt-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [snmp2mqtt-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[snmp2mqtt-armv7-shield]: https://img.shields.io/badge/armv7-yes-blue.svg
+[snmp2mqtt-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [snmp2mqtt-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-phpmyadmin]: https://github.com/andrewjswan/phpmyadmin-addon
 [addon-doc-phpmyadmin]: https://github.com/andrewjswan/phpmyadmin-addon
