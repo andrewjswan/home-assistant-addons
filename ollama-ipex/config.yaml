@@ -1,8 +1,7 @@
 name: Ollama IPEX
 description: Get up and running with large language models.
-version: 2025.9.1
+version: 2025.11.1
 slug: ollama-ipex
-codenotary: notary@home-assistant.io
 arch:
 - aarch64
 - amd64
@@ -11,6 +10,7 @@ map:
 - config:rw
 - share:rw
 image: ghcr.io/andrewjswan/ollama-ipex-addon-{arch}
+startup: application
 init: false
 ingress: true
 legacy: true
@@ -59,5 +59,4 @@ devices:
 - /dev/vchiq
 - /dev/video10
 - /dev/video0
-startup: application
 watchdog: tcp://[HOST]:[PORT:11434]
