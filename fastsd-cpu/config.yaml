@@ -1,12 +1,12 @@
 name: FastSD CPU
-version: 2026.3.1
+version: 2026.4.1
 slug: fastsd-cpu
 description: FastSD CPU is a faster version of Stable Diffusion on CPU
 url: https://github.com/andrewjswan/fastsd-cpu-addon/
 arch:
 - amd64
 - aarch64
-image: ghcr.io/andrewjswan/fastsd-cpu-addon-{arch}
+image: ghcr.io/andrewjswan/fastsd-cpu-addon
 startup: application
 boot: auto
 init: false

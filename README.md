@@ -130,7 +130,7 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 [addon-fastsd-cpu]: https://github.com/andrewjswan/fastsd-cpu-addon
 [addon-doc-fastsd-cpu]: https://github.com/andrewjswan/fastsd-cpu-addon
 [fastsd-cpu-issue]: https://github.com/andrewjswan/fastsd-cpu-addon/issues
-[fastsd-cpu-version-shield]: https://img.shields.io/badge/version-v2026.3.1-blue.svg
+[fastsd-cpu-version-shield]: https://img.shields.io/badge/version-v2026.4.1-blue.svg
 [fastsd-cpu-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [fastsd-cpu-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [fastsd-cpu-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
