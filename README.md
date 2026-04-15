@@ -1,6 +1,6 @@
-# Home Assistant Add-ons
+# Home Assistant Apps
 
-[![ha addon_badge](https://img.shields.io/badge/HA-Addon-blue.svg)](https://developers.home-assistant.io/docs/add-ons)
+[![ha app_badge](https://img.shields.io/badge/HA-App-blue.svg)](https://developers.home-assistant.io/docs/add-ons)
 ![Maintenance][maintenance-shield]
 [![Activity][project-activity]](https://github.com/andrewjswan/home-assistant-addons/)
 [![GitHub](https://img.shields.io/github/license/andrewjswan/home-assistant-addons?color=blue)](https://github.com/andrewjswan/home-assistant-addons/blob/main/LICENSE)
@@ -8,21 +8,21 @@
 
 ## About
 
-Home Assistant allows anyone to create add-on repositories to share their
-add-ons for Home Assistant easily. This repository is one of those repositories,
-providing extra Home Assistant add-ons for your installation.
+Home Assistant allows anyone to create app repositories to share their
+apps for Home Assistant easily. This repository is one of those repositories,
+providing extra Home Assistant apps for your installation.
 
 The primary goal of this project is to provide you (as a Home Assistant user)
-with additional, high quality, add-ons that allow you to take your automated
+with additional, high quality, apps that allow you to take your automated
 home to the next level.
 
 ## Installation
 
-Add the repository URL under **Supervisor → Add-on Store** in your Home Assistant front-end:
+Add the repository URL under **Supervisor → App Store** in your Home Assistant front-end:
 
     https://github.com/andrewjswan/home-assistant-addons
 
-## Add-ons provided by this repository
+## Apps provided by this repository
 
 ### &#129302; [ESPHome Update][addon-esphome-update]
 
@@ -35,7 +35,7 @@ Add the repository URL under **Supervisor → Add-on Store** in your Home Assist
 
 ESPHome Update Server
 
-[ESPHome Update add-on documentation][addon-doc-esphome-update]
+[ESPHome Update app documentation][addon-doc-esphome-update]
 
 ### &#129302; [FastSD CPU][addon-fastsd-cpu]
 
@@ -48,7 +48,7 @@ ESPHome Update Server
 
 FastSD CPU is a faster version of Stable Diffusion on CPU
 
-[FastSD CPU add-on documentation][addon-doc-fastsd-cpu]
+[FastSD CPU app documentation][addon-doc-fastsd-cpu]
 
 ### &#129302; [Ollama IPEX][addon-ollama-ipex]
 
@@ -61,7 +61,7 @@ FastSD CPU is a faster version of Stable Diffusion on CPU
 
 Get up and running with large language models.
 
-[Ollama IPEX add-on documentation][addon-doc-ollama-ipex]
+[Ollama IPEX app documentation][addon-doc-ollama-ipex]
 
 ### &#129302; [RSSHub][addon-rsshub]
 
@@ -74,7 +74,7 @@ Get up and running with large language models.
 
 Generate a RSS/Atom/JSON feed from anything
 
-[RSSHub add-on documentation][addon-doc-rsshub]
+[RSSHub app documentation][addon-doc-rsshub]
 
 ### &#129302; [SNMP2MQTT][addon-snmp2mqtt]
 
@@ -87,7 +87,7 @@ Generate a RSS/Atom/JSON feed from anything
 
 SNMP2MQTT expose SNMP sensors to MQTT
 
-[SNMP2MQTT add-on documentation][addon-doc-snmp2mqtt]
+[SNMP2MQTT app documentation][addon-doc-snmp2mqtt]
 
 ### &#129302; [phpMyAdmin][addon-phpmyadmin]
 
@@ -100,23 +100,23 @@ SNMP2MQTT expose SNMP sensors to MQTT
 
 A web interface for the MariaDB / MySQL
 
-[phpMyAdmin add-on documentation][addon-doc-phpmyadmin]
+[phpMyAdmin app documentation][addon-doc-phpmyadmin]
 
 
 ## Support
 
 You could also open an issue here on GitHub. Note, we use a separate
-GitHub repository for each add-on. Please ensure you are creating the issue
-on the correct GitHub repository matching the add-on.
+GitHub repository for each app. Please ensure you are creating the issue
+on the correct GitHub repository matching the app.
 
-- [Open an issue for the add-on: ESPHome Update][esphome-update-issue]
-- [Open an issue for the add-on: FastSD CPU][fastsd-cpu-issue]
-- [Open an issue for the add-on: Ollama IPEX][ollama-ipex-issue]
-- [Open an issue for the add-on: RSSHub][rsshub-issue]
-- [Open an issue for the add-on: SNMP2MQTT][snmp2mqtt-issue]
-- [Open an issue for the add-on: phpMyAdmin][phpmyadmin-issue]
+- [Open an issue for the app: ESPHome Update][esphome-update-issue]
+- [Open an issue for the app: FastSD CPU][fastsd-cpu-issue]
+- [Open an issue for the app: Ollama IPEX][ollama-ipex-issue]
+- [Open an issue for the app: RSSHub][rsshub-issue]
+- [Open an issue for the app: SNMP2MQTT][snmp2mqtt-issue]
+- [Open an issue for the app: phpMyAdmin][phpmyadmin-issue]
 
-For a general repository issue or add-on ideas [open an issue here][issue]
+For a general repository issue or app ideas [open an issue here][issue]
 
 [addon-esphome-update]: https://github.com/andrewjswan/esphome-update-addon
 [addon-doc-esphome-update]: https://github.com/andrewjswan/esphome-update-addon
