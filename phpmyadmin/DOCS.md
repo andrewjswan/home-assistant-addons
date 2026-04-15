@@ -1,4 +1,4 @@
-# phpMyAdmin Add-on
+# Home Assistant App: phpMyAdmin
 
 phpMyAdmin is a database administration tool for MariaDB & MySQL. Frequently
 used operations (managing databases, tables, columns, relations, indexes,
@@ -7,19 +7,19 @@ while you still have the ability to directly execute any SQL statement.
 
 ## Installation
 
-Add the repository URL under **Supervisor → Add-on Store** in your Home Assistant front-end:
+Add the repository URL under **Supervisor → App Store** in your Home Assistant front-end:
 
     https://github.com/andrewjswan/phpmyadmin-addon/
 
-1. Click the "Install" button to install the add-on.
-1. Start the "phpMyAdmin" add-on.
-1. Enjoy the add-on!
+1. Click the "Install" button to install the app.
+1. Start the "phpMyAdmin" app.
+1. Enjoy the app!
 
 ## Configuration
 
-**Note**: _Remember to restart the add-on when the configuration is changed._
+**Note**: _Remember to restart the app when the configuration is changed._
 
-Example add-on configuration:
+Example app configuration:
 
 ```yaml
 log_level: info
@@ -29,7 +29,7 @@ log_level: info
 
 ### Option: `host`
 
-IP Address or Hostname of the SQL server. If not specified, the local MariaDB add-on is used.
+IP Address or Hostname of the SQL server. If not specified, the local MariaDB app is used.
 
 ### Option: `port`
 
@@ -50,7 +50,7 @@ By default, the size limit for uploads (for operations such as imports) is set t
 
 ### Option: `log_level`
 
-The `log_level` option controls the level of log output by the addon and can
+The `log_level` option controls the level of log output by the app and can
 be changed to be more or less verbose, which might be useful when you are
 dealing with an unknown issue. Possible values are:
 
@@ -59,7 +59,7 @@ dealing with an unknown issue. Possible values are:
 - `info`: Normal (usually) interesting events.
 - `warning`: Exceptional occurrences that are not errors.
 - `error`: Runtime errors that do not require immediate action.
-- `fatal`: Something went terribly wrong. Add-on becomes unusable.
+- `fatal`: Something went terribly wrong. App becomes unusable.
 
 Please note that each level automatically includes log messages from a
 more severe level, e.g., `debug` also shows `info` messages. By default,
@@ -76,13 +76,13 @@ You could also [open an issue here][issue] GitHub.
 
 The original setup of this repository is by [Andrew J.Swan][andrewjswan].
 
-Addon based on offical [Home Assistant Community Add-on: phpMyAdmin][phpmyadmin] by [Franck Nijhof][frenck].
+App based on offical [Home Assistant Community App: phpMyAdmin][phpmyadmin] by [Franck Nijhof][frenck].
 
 ## License
 
 MIT License
 
-Copyright (c) 2024 Andrew J.Swan
+Copyright (c) Andrew J.Swan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

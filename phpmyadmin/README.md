@@ -1,10 +1,12 @@
-# phpMyAdmin Add-on
+<div align="center">
+<h1>Home Assistant App: phpMyAdmin</h1>
+</div>
 
 ## General
 
-[![ha addon_badge](https://img.shields.io/badge/HA-Addon-blue.svg)](https://developers.home-assistant.io/docs/add-ons)
+[![ha app_badge](https://img.shields.io/badge/HA-App-blue.svg)](https://developers.home-assistant.io/docs/add-ons)
 [![phpmyadmin](https://img.shields.io/badge/phpMy-Admin-blue.svg)](https://github.com/andrewjswan/phpmyadmin-addon/)
-[![GitHub](https://img.shields.io/github/license/andrewjswan/phpmyadmin-addon?color=blue)](https://github.com/andrewjswan/phpmyadmin-addon/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/andrewjswan/phpmyadmin-addon?color=blue)](https://github.com/andrewjswan/phpmyadmin-addon/blob/main/LICENSE)
 [![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/andrewjswan/phpmyadmin-addon?include_prereleases)](https://github.com/andrewjswan/phpmyadmin-addon/blob/main/phpmyadmin/CHANGELOG.md)
 [![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
 
@@ -29,7 +31,7 @@ while you still have the ability to directly execute any SQL statement.
 
 ## Notes
 
-Addon based on offical [Home Assistant Community Add-on: phpMyAdmin][phpmyadmin] by [Franck Nijhof][frenck].
+App based on offical [Home Assistant Community App: phpMyAdmin][phpmyadmin] by [Franck Nijhof][frenck].
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

@@ -3,7 +3,7 @@ configuration:
   host:
     name: Host
     description: >-
-      IP Address or Hostname of the SQL server. If not specified, the local MariaDB add-on is used.
+      IP Address or Hostname of the SQL server. If not specified, the local MariaDB App is used.
   port:
     name: Port
     description: >-
@@ -19,4 +19,4 @@ configuration:
   log_level:
     name: Log level
     description: >-
-      Controls the level of log details the add-on provides.
+      Controls the level of log details the App provides.
