@@ -1,5 +1,5 @@
 name: phpMyAdmin
-version: 2026.4.1
+version: 2026.4.3
 slug: phpmyadmin
 description: A web interface for the MariaDB / MySQL
 url: https://github.com/andrewjswan/phpmyadmin-addon
