@@ -24,6 +24,19 @@ Add the repository URL under **Supervisor → App Store** in your Home Assistant
 
 ## Apps provided by this repository
 
+### &#129302; [Alert Map Proxy][addon-alert-map-proxy]
+
+![Latest Version][alert-map-proxy-version-shield]
+![Supports amd64 Architecture][alert-map-proxy-amd64-shield]
+![Supports aarch64 Architecture][alert-map-proxy-aarch64-shield]
+![Supports armv7 Architecture][alert-map-proxy-armv7-shield]
+![Supports armhf Architecture][alert-map-proxy-armhf-shield]
+![Supports i386 Architecture][alert-map-proxy-i386-shield]
+
+Alert Map Proxy Server
+
+[Alert Map Proxy app documentation][addon-doc-alert-map-proxy]
+
 ### &#129302; [ESPHome Update][addon-esphome-update]
 
 ![Latest Version][esphome-update-version-shield]
@@ -109,6 +122,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each app. Please ensure you are creating the issue
 on the correct GitHub repository matching the app.
 
+- [Open an issue for the app: Alert Map Proxy][alert-map-proxy-issue]
 - [Open an issue for the app: ESPHome Update][esphome-update-issue]
 - [Open an issue for the app: FastSD CPU][fastsd-cpu-issue]
 - [Open an issue for the app: Ollama IPEX][ollama-ipex-issue]
@@ -118,6 +132,15 @@ on the correct GitHub repository matching the app.
 
 For a general repository issue or app ideas [open an issue here][issue]
 
+[addon-alert-map-proxy]: https://github.com/andrewjswan/alert-map-proxy-addon
+[addon-doc-alert-map-proxy]: https://github.com/andrewjswan/alert-map-proxy-addon
+[alert-map-proxy-issue]: https://github.com/andrewjswan/alert-map-proxy-addon/issues
+[alert-map-proxy-version-shield]: https://img.shields.io/badge/version-v2026.10.9-blue.svg
+[alert-map-proxy-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
+[alert-map-proxy-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
+[alert-map-proxy-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[alert-map-proxy-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[alert-map-proxy-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-esphome-update]: https://github.com/andrewjswan/esphome-update-addon
 [addon-doc-esphome-update]: https://github.com/andrewjswan/esphome-update-addon
 [esphome-update-issue]: https://github.com/andrewjswan/esphome-update-addon/issues
