@@ -1,6 +1,10 @@
 ---
 channel: stable
 addons:
+  alert-map-proxy:
+    repository: andrewjswan/alert-map-proxy-addon
+    target: alert-map-proxy
+    image: ghcr.io/andrewjswan/alert-map-proxy-addon
   esphome-update:
     repository: andrewjswan/esphome-update-addon
     target: esphome-update
