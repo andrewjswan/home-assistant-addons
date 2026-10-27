@@ -171,7 +171,7 @@ For a general repository issue or app ideas [open an issue here][issue]
 [addon-rsshub]: https://github.com/andrewjswan/rsshub-addon
 [addon-doc-rsshub]: https://github.com/andrewjswan/rsshub-addon
 [rsshub-issue]: https://github.com/andrewjswan/rsshub-addon/issues
-[rsshub-version-shield]: https://img.shields.io/badge/version-v2026.4.1-blue.svg
+[rsshub-version-shield]: https://img.shields.io/badge/version-v2026.10.1-blue.svg
 [rsshub-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-blue.svg
 [rsshub-amd64-shield]: https://img.shields.io/badge/amd64-yes-blue.svg
 [rsshub-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
